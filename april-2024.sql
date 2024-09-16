@@ -1,4 +1,4 @@
-select * from customer;
+
 
 select dob,year(convert(date,Dob)) as yr from customer;
 SELECT dob, YEAR(CONVERT(date, dob)) AS yr FROM customer;
